@@ -5,5 +5,5 @@ Viewermecaobj is a simple filter wich allows to create an interactive STL viewer
 the object is rotating on itself, you can stop the rotation rotation, and manipulate it, zoom in and zoom out and also download it.
 
 # Installation.
-After use the zip to install it, you have to activate it, going to Tableau de bord
+After use the zip to install the plungin, you have to activate it going to
 Dashboard > Plugins > Filters > Filters Manager
