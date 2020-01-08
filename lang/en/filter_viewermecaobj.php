@@ -24,3 +24,5 @@
  */
 
 $string['filtername'] = 'Viewier Meca Obj';
+$string['download'] = 'Download';
+$string['rotation'] = 'Rotation';

@@ -16,15 +16,14 @@
 /**
  * Version details
  *
- * @package    filter
- * @subpackage tidy
- * @copyright  1999 onwards Martin Dougiamas (http://dougiamas.com)
+ * @package    viewermecaobj
+ * @copyright  2019 Florent PACCALET
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2017111303;        // The current plugin version (Date: YYYYMMDDXX)
+$plugin->version   = 2020000001;        // The current plugin version (Date: YYYYMMDDXX)
 $plugin->requires  = 2014111100;        // Requires this Moodle version
 $plugin->component = 'filter_viewermecaobj';     // Full name of the plugin (used for diagnostics)
 $plugin->maturity   = MATURITY_STABLE;

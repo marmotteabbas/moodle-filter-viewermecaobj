@@ -1,11 +1,12 @@
-/*eslint-disable */
-define(['filter_viewermecaobj/three'], function(THREE) {
 /**
  * @author qiao / https://github.com/qiao
  * @author mrdoob / http://mrdoob.com
  * @author alteredq / http://alteredqualia.com/
  * @author WestLangley / http://github.com/WestLangley
  * @author erich666 / http://erichaines.com
+ * @author mrflix / http://felixniklas.de
+ * 
+ * released under MIT License (MIT)
  */
 /*global THREE, console */
 
@@ -22,7 +23,8 @@ define(['filter_viewermecaobj/three'], function(THREE) {
 //    	controls = new THREE.TrackballControls( camera );
 //      controls.target.z = 150;
 // Simple substitute "OrbitControls" and the control should work as-is.
-
+/*eslint-disable */
+define(['filter_viewermecaobj/three'], function(THREE) {
 THREE.OrbitControls = function ( object, domElement ) {
 
 	this.object = object;

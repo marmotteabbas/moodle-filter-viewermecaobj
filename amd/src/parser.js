@@ -1,3 +1,7 @@
+/*
+ * Released under MIT License (MIT)
+ * Made by Omri Rips, Viewstl.com ; admin@viewstl.com 
+*/
 /*eslint-disable */
 define(['filter_viewermecaobj/three'], function(THREE) {
 parse_3d_file = function(filename, s)

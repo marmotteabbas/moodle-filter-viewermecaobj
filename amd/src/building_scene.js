@@ -1,3 +1,9 @@
+/*
+ * Released under MIT License (MIT)
+ * Viewstl.com ; admin@viewstl.com 
+ *
+ * Modified by Florent Paccalet (2019)
+ */
 /*eslint-disable */var controls = [];/*eslint-enable */
 define(['filter_viewermecaobj/three','filter_viewermecaobj/parser','filter_viewermecaobj/OrbitControls'],
 function(THREE, Parser, /*eslint-disable */OrbitControls/*eslint-enable */) {

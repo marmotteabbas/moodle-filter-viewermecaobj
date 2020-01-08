@@ -122,8 +122,8 @@ class filter_viewermecaobj extends moodle_text_filter {
                         <span id="loading_'.($id+1)."_".$this->context->id.'_'.$this->incr.'" style="top:50%; position:relative;"> </span>
                     </div>  
                     <div>
-                            <a  href="javascript:void(0)" onclick="controls.forEach(function(element) { if (\'canvas_container_'.($id+1)."_".$this->context->id.'_'.$this->incr.'\'== element.ident) { element.autoRotate = !element.autoRotate;}});">Rotation</a> /
-                            <a  href="'.$elem_to_replace_with_name[$id]["url"].'">Download</a>
+                            <a  href="javascript:void(0)" onclick="controls.forEach(function(element) { if (\'canvas_container_'.($id+1)."_".$this->context->id.'_'.$this->incr.'\'== element.ident) { element.autoRotate = !element.autoRotate;}});">'.get_string('rotation', 'filter_viewermecaobj').'</a> /
+                            <a  href="'.$elem_to_replace_with_name[$id]["url"].'">'.get_string('download', 'filter_viewermecaobj').'</a>
                     </div>
                 </div>';
                 
