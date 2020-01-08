@@ -16,13 +16,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_tidy', language 'en', branch 'MOODLE_20_STABLE'
- *
- * @package   filter_tidy
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    filter
+ * @subpackage viewermecaobj
+ * @copyright  2020 Florent Paccalet florent.paccalet@grenoble-inp.fr
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 
 $string['filtername'] = 'Viewier Meca Obj';
 $string['download'] = 'Download';
 $string['rotation'] = 'Rotation';
+$string['privacy:metadata'] = 'Viewer meca obj only change an stl url by a interactive STL viewer';

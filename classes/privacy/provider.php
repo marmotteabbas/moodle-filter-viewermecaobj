@@ -13,19 +13,38 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
 /**
- * Version details
+ * Privacy Subsystem implementation for filter_tex.
  *
  * @package    filter
  * @subpackage viewermecaobj
- * @copyright  2020 Florent PACCALET florent.paccalet@grenoble-inp.fr
+ * @copyright  2020 Florent Paccalet florent.paccalet@grenoble-inp.fr
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+namespace filter_viewermecaobj\privacy;
+
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2020000001;        // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2014111100;        // Requires this Moodle version
-$plugin->component = 'filter_viewermecaobj';     // Full name of the plugin (used for diagnostics)
-$plugin->maturity   = MATURITY_STABLE;
-$plugin->release = '1.1';
+/**
+ * Privacy Subsystem for filter_viewermecaobj implementing null_provider.
+ *
+ * @package    filter
+ * @subpackage viewermecaobj
+ * @copyright  2020 Florent Paccalet florent.paccalet@grenoble-inp.fr
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+class provider implements \core_privacy\local\metadata\null_provider {
+
+    /**
+     * Get the language string identifier with the component's language
+     * file to explain why this plugin stores no data.
+     *
+     * @return  string
+     */
+    public static function get_reason() : string {
+        return 'privacy:metadata';
+    }
+}
