@@ -1,4 +1,5 @@
 // threejs.org/license
+// Released under MIT License (MIT)
 /*eslint-disable */
 (function(l, za) {
     "object" === typeof exports && "undefined" !== typeof module ? za(exports) : "function" === typeof define && define.amd ? define(["exports"], za) : za(l.THREE = {})
