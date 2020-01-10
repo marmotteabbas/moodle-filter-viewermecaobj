@@ -28,4 +28,4 @@ $plugin->version   = 2020000001;        // The current plugin version (Date: YYY
 $plugin->requires  = 2014111100;        // Requires this Moodle version
 $plugin->component = 'filter_viewermecaobj';     // Full name of the plugin (used for diagnostics)
 $plugin->maturity   = MATURITY_STABLE;
-$plugin->release = '1.1';
+$plugin->release = '1.2';
