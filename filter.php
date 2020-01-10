@@ -64,11 +64,11 @@ class filter_viewermecaobj extends moodle_text_filter {
                     $pre_url = substr($text, $begin, $end);
                 }
 
-                while (strpos($pre_url,">") !== false || mb_stripos($pre_url,";") !== false) {
+                while (strpos($pre_url,">") !== false || strpos($pre_url,";") !== false) {
                     if (strpos($pre_url,">") > strpos($pre_url,";")) {
                         $begin = strpos($pre_url,">")+1;        
-                    } elseif (strpos($pre_url,">") != mb_stripos($pre_url,";")){
-                        $begin = mb_stripos($pre_url,";")+1; 
+                    } elseif (strpos($pre_url,">") != strpos($pre_url,";")){
+                        $begin = strpos($pre_url,";")+1; 
                     } else {
                         $begin = 1;
                     }
